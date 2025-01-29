@@ -1,6 +1,6 @@
 # HNG12 Public API
 
-This is a simple public API developed for HNG12 that returns the following details in JSON format:
+This is a simple public API that returns the following details in JSON format:
 - Your registered email address on the HNG12 Slack workspace.
 - The current datetime in ISO 8601 format (UTC).
 - The GitHub repository URL of the project.
@@ -8,7 +8,7 @@ This is a simple public API developed for HNG12 that returns the following detai
 ## Technology Stack
 - **Programming Language:** Python
 - **Framework:** FastAPI
-- **Deployment:** Hosted on Railway
+- **Deployment:** Hosted on Vercel
 - **CORS Handling:** Configured to allow cross-origin requests
 
 ## API Documentation
@@ -41,7 +41,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 ### Install Dependencies
 ```bash
-pip install fastapi uvicorn
+pip install -r requirements.txt
 ```
 
 ### Run the API Locally
@@ -51,7 +51,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 ### Deployment
 This API is deployed and publicly accessible at:
-`<your-deployed-url>`
+`https://public-api-to-retrieve-basic-information.vercel.app/`
 
 ## Hiring Links
 - [Hire Python Developers](https://hng.tech/hire/python-developers)
