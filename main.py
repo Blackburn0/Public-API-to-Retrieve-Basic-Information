@@ -16,5 +16,5 @@ def get_info():
     return {
         "email": "hamzatadebayo5@gmail.com",
         "current_datetime": datetime.utcnow().isoformat() + "Z",
-        "github_url": "https://github.com/Blackburn0/Public-API-to-Retrieve-Basic-Information.git"
+        "github_url": "https://github.com/Blackburn0/Public-API-to-Retrieve-Basic-Information"
     }
