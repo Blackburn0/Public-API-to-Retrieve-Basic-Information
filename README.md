@@ -29,8 +29,8 @@ This is a simple public API that returns the following details in JSON format:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/Blackburn0/Public-API-to-Retrieve-Basic-Information.git
+cd Public-API-to-Retrieve-Basic-Information
 ```
 
 ### Create a Virtual Environment
