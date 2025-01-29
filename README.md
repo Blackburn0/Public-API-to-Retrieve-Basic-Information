@@ -1,57 +1,37 @@
-# HNG12 Public API
+# Project documentation
+
+## Description
 
 This is a simple public API that returns the following details in JSON format:
 - My registered email address on the HNG12 Slack workspace.
 - The current datetime in ISO 8601 format (UTC).
 - My GitHub repository URL of the project.
 
-## Technology Stack
-- **Programming Language:** Python
-- **Framework:** FastAPI
-- **Deployment:** Hosted on Vercel
-- **CORS Handling:** Configured to allow cross-origin requests
+- Endpoint - https://public-api-to-retrieve-basic-information.vercel.app/
 
-## API Documentation
+### Example Response
 
-### Endpoint
-**GET** `/`
-
-### Response Format (200 OK)
-```json
+```bash
 {
-  "email": "your-email@example.com",
-  "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/yourusername/your-repo"
+    "email": "hamzatadebayo5@gmail.com",
+    "current_datetime": "2025-01-30T09:30:00Z",
+    "github_url": "https://github.com/Blackburn0/Public-API-to-Retrieve-Basic-Information",
 }
 ```
 
-## Setup Instructions
+## Project setup
 
-### Clone the Repository
-```bash
-git clone https://github.com/Blackburn0/Public-API-to-Retrieve-Basic-Information.git
-cd Public-API-to-Retrieve-Basic-Information
-```
-
-### Create a Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
-
-### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the API Locally
+## Compile and run the project
+
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
 ```
 
-### Deployment
-This API is deployed and publicly accessible at:
-`https://public-api-to-retrieve-basic-information.vercel.app/`
+## Back Links
 
-## Hiring Links
-- [Hire Python Developers](https://hng.tech/hire/python-developers)
+- [https://hng.tech/hire/python-developers](https://hng.tech/hire/python-developers)
