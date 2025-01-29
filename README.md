@@ -1,9 +1,9 @@
 # HNG12 Public API
 
 This is a simple public API that returns the following details in JSON format:
-- Your registered email address on the HNG12 Slack workspace.
+- My registered email address on the HNG12 Slack workspace.
 - The current datetime in ISO 8601 format (UTC).
-- The GitHub repository URL of the project.
+- My GitHub repository URL of the project.
 
 ## Technology Stack
 - **Programming Language:** Python
